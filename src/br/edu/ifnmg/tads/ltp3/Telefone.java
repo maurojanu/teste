@@ -10,7 +10,7 @@ package br.edu.ifnmg.tads.ltp3;
  */
 public class Telefone {
     
-    private int id;
+    private int id;s
     private int ddd;
     private int num;
 
