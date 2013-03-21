@@ -10,7 +10,7 @@ import java.util.Objects;
  *
  * @author aluno
  */
-public class Enderecos {
+public class Endereco {
    
     private int id;
     private String rua;
@@ -109,7 +109,7 @@ public class Enderecos {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Enderecos other = (Enderecos) obj;
+        final Endereco other = (Endereco) obj;
         if (this.id != other.id) {
             return false;
         }
@@ -139,7 +139,7 @@ public class Enderecos {
 
     @Override
     public String toString() {
-        return "Enderecos{" + "id=" + id + ", rua=" + rua + ", num=" + num + ", compl=" + compl + ", bairro=" + bairro + ", cep=" + cep + ", cidade=" + cidade + ", estado=" + estado + '}';
+        return "Endereco{" + "id=" + id + ", rua=" + rua + ", num=" + num + ", compl=" + compl + ", bairro=" + bairro + ", cep=" + cep + ", cidade=" + cidade + ", estado=" + estado + '}';
     }
     
     

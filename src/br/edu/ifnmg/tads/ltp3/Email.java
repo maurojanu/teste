@@ -10,7 +10,7 @@ import java.util.Objects;
  *
  * @author aluno
  */
-public class Emails {
+public class Email {
     
     private int id;
     private String enderecos;
@@ -47,7 +47,7 @@ public class Emails {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Emails other = (Emails) obj;
+        final Email other = (Email) obj;
         if (this.id != other.id) {
             return false;
         }
@@ -59,7 +59,7 @@ public class Emails {
 
     @Override
     public String toString() {
-        return "Emails{" + "id=" + id + ", enderecos=" + enderecos + '}';
+        return "Email{" + "id=" + id + ", enderecos=" + enderecos + '}';
     }
  
     
